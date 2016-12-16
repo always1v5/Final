@@ -9,7 +9,7 @@ import org.junit.Test;
 import rocketDomain.RateDomainModel;
 
 public class Rate_Test {
-
+	ArrayList<RateDomainModel> rates = RateDAL.getAllRates();
 	
 	//TODO - RocketDAL rate_test
 	//		Check to see if a known credit score returns a known interest rate
@@ -24,7 +24,16 @@ public class Rate_Test {
 		System.out.println ("Rates size: " + rates.size());
 		assert(rates.size() > 0);
 		
-		assert(1==1);
-	}
 
+	}
+	@Test
+	public void RateTest() {
+		
+		
+		//TODO - RocketDAL rate_test
+		//		Check to see if a known credit score returns a known interest rate
+		
+		
+	}
+	
 }
